@@ -1,0 +1,18 @@
+model:
+  in_channels: 2
+  hidden_dim: 32
+  out_channels: 2
+  kernel_size: 3
+  
+training:
+  seq_in: 5
+  seq_out: 2
+  batch_size: 16
+  learning_rate: 0.001
+  epochs: 50
+  device: "cuda" # or "cpu"
+  save_path: "deepnowcast_v1.pth"
+
+data:
+  variables: ["t2m", "tp"] # 2m temp, total precipitation
+  era5_nc_path: "data/raw/era5_india_2023_08_sample.nc"
