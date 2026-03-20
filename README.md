@@ -6,7 +6,6 @@ DeepNowcast: Spatiotemporal Deep Learning for Weather Nowcasting
 
 **DeepNowcast** is an end-to-end Machine Learning pipeline designed to predict highly localized, short-term weather events (0–6 hours) such as the Indian Summer Monsoon (ISMR) and severe cyclones. 
 
-> **Statement of Purpose Context**: While working as an R&D Systems Administrator, I became fascinated by how infrastructure and AI intersect. Traditional Numerical Weather Prediction (NWP) models take hours to compute on superclusters. I built *DeepNowcast* to test the hypothesis that we can treat weather forecasting as a **video prediction problem**, utilizing GPU-accelerated **ConvLSTM** networks to achieve real-time inference. This project solidifies my desire to pursue an MS in AI to deepen my algorithmic knowledge.
 
 ---
  Architecture & Approach
